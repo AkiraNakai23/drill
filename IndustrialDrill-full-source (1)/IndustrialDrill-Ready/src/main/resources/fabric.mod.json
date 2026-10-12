@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "industrial_drill",
+  "version": "${version}",
+  "name": "Industrial Drill",
+  "description": "Rideable industrial drill vehicle prototype for Minecraft 26.3.",
+  "authors": ["OpenAI"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.example.industrialdrill.IndustrialDrillMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
